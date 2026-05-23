@@ -1,5 +1,5 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 public class CoroutineExample : MonoBehaviour
 {
@@ -79,4 +79,14 @@ public class CoroutineExample : MonoBehaviour
 
   ---
   按空格触发的 StopCoroutine 是强行掐断
+*/
+
+/*
+Unity Console控制台应该输出:
+协程开始
+Hello 第1次
+Hello 第2次
+Hello 第3次
+协程结束
+(如果不按空格键强行结束的话)
 */

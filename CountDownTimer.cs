@@ -1,3 +1,5 @@
+using UnityEngine;
+using System.Collections;
 public class CountdownTimer : MonoBehaviour
 {
     public float duration = 10f;
@@ -20,7 +22,7 @@ public class CountdownTimer : MonoBehaviour
     }
   }
   /*
-  $"倒计时: {remaining} 秒"       //输出: 倒计时: 9 秒
-  $"倒计时: {remaining:F1} 秒"    //输出: 倒计时: 9.0 秒
-  $"倒计时: {remaining:F2} 秒"    //输出: 倒计时: 9.00 秒
+  $"倒计时: {remaining} 秒"       //输出: 倒计时: 9秒
+  $"倒计时: {remaining:F1} 秒"    //输出: 倒计时: 9.0秒
+  $"倒计时: {remaining:F2} 秒"    //输出: 倒计时: 9.00秒
   */
